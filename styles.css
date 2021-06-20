@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(245, 241, 234);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 24;
+    font-weight: bold;
+    margin: 30px;
+}
+nav {
+    border: 5px solid green;
+}
+
+.carrousel, .aboutUs, .infoSection, .ourProducts, .location, .contactForm {
+    border: 5px solid red;
+}
+
+.infoSection, .location {
+    background-color: #afafaf;
+}
+
+.footer {
+    background-color: rgb(49, 49, 49);
+    border: 5px solid blue;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contactForm {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.titleCenter {
+    text-align: center;
+}
+
+.centerButtons {
+    width: 5vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.iframeStyle {
+ text-align: center;
+ margin: 50px;
+}
