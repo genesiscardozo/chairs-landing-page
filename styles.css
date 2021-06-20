@@ -10,28 +10,25 @@ h2 {
     font-weight: bold;
     margin: 30px;
 }
-nav {
-    border: 5px solid green;
-}
 
-.carrousel, .aboutUs, .infoSection, .ourProducts, .location, .contactForm {
+.carrousel, .aboutUs, .infoSection, .ourProducts {
     border: 5px solid red;
 }
 
 .infoSection, .location {
-    background-color: #afafaf;
+    background-color: #d4d4d4;
 }
 
-.footer {
+footer {
     background-color: rgb(49, 49, 49);
-    border: 5px solid blue;
-    color: white;
+    margin-top: 100px;
 }
 
-a {
-    text-decoration: none;
+/* Paragraph Display  */
+.textDisplay {
+    width: 500px;
+margin: 0 auto;
 }
-
 .contactForm {
     width: 60vw;
     margin: 0 auto;
@@ -50,4 +47,21 @@ a {
 .iframeStyle {
  text-align: center;
  margin: 50px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color:rgb(128, 125, 120);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+i.fas, i.far {
+    font-size: 30px;
 }
