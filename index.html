@@ -13,58 +13,127 @@
 </head>
 <body>
     <header>
+        <!-- Header's Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <a class="navbar-brand" href="#">Chair | Furniture Store </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                See More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#About">About Us</a></li>
+                                <li><a class="dropdown-item" href="#Products">Our Products</a></li>
+                                <li><a class="dropdown-item" href="#Location">Location</a></li>
+                                <li><a class="dropdown-item" href="#Contact">Contact Us</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                </div>
+            </div>
+        </nav>
+        <!-- The Carrousel shold be placed here -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/background.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/background2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/background3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
               </div>
             </div>
-          </nav>
-        <!-- The Carrousel shold be placed here -->
-        <div class="carrousel"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </header>
     <main>
-        <div class="aboutUs">
+        <div class="aboutUs" id="About">
             <h2 class="titleCenter">About Us</h2>
             <p class="textDisplay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere delectus esse fugiat, maxime dolore in, iusto et quibusdam tempore blanditiis animi? Recusandae omnis illo vitae quasi, amet alias illum quidem.</p>
             <p class="textDisplay">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error recusandae eum voluptatibus, adipisci eveniet, aliquam culpa fugiat voluptates vero atque molestiae a consequatur alias ad perspiciatis doloremque modi veritatis! Voluptates.</p>
             <img src="" alt="">
         </div>
-        <div class="infoSection"> Advantages of Our Products! </div>
-        <div class="ourProducts"> <h2 class="titleCenter">Our Products</h2> </div>
+        <div class="infoSection"> <h3 class="titleCenter">Advantages of Our Products!</h3>
+
+ <!-- ICONS -->
+ <div class="container">
+    <div class="row">
+        <div class="col"><i class="fas fa-shipping-fast"></i></div>
+        <div class="col"><i class="fas fa-lock"></i></div>
+        <div class="col"><i class="fas fa-headset"></i></div>
+    </div>
+</div>
 
 
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    Fast Shippinh
+                </div>
+                <div class="col">
+                    Secure Checkout
+                </div>
+                <div class="col">
+                    24/7 Support
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="ourProducts" id="Products"> <h2 class="titleCenter">Our Products</h2>
+        
+        <p class="textDisplay"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim molestias eum et nihil modi esse consectetur rerum odio sit iste veniam, aliquam reprehenderit necessitatibus nesciunt quaerat dolorum nulla quae maiores! </p>
+
+        <p class="textDisplay"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo aliquam impedit nobis perferendis nisi ex quibusdam doloribus, maiores, sint corporis delectus qui, vel neque deleniti porro rerum cupiditate deserunt a.</p>
+
+        <img src="images/picpic.png" alt="">
+
+        <p class="textDisplay"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolores nisi quos qui modi corporis reiciendis nam deserunt illo accusamus dolorum possimus, impedit voluptas animi minus sed ea repellat consequuntur.</p>
+        
+        <img src="images/picpic2.png" alt="">
+        
+        </div>
+        
+        
         <!-- Location Section -->
-        <div class="location"> <h2 class="titleCenter">Where to Find Us</h2> 
+        <div class="location" id="Location"> <h2 class="titleCenter">Where to Find Us</h2> 
             
             <!-- ICONS -->
             <div class="container">
@@ -97,7 +166,7 @@
         </div>
         
         <!-- FORM -->
-        <div class="contactForm"> <h2 class="titleCenter">Contact Us</h2> 
+        <div class="contactForm" id="Contact"> <h2 class="titleCenter">Contact Us</h2> 
             <div class="mb-3"> 
                 <label for="Name" class="form-label">Name</label>
                 <input type="name" class="form-control" id="Name" placeholder="Your Name">
@@ -124,13 +193,13 @@
                 <a class="nav-link active" aria-current="page" href="#">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Our Products</a>
+                <a class="nav-link" href="#Products">Our Products</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Where to Find Us</a>
+                <a class="nav-link" href="#Location">Where to Find Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1">Contact Us</a>
+                <a class="nav-link" href="#Contact" tabindex="-1">Contact Us</a>
             </li>
         </ul>
     </footer>

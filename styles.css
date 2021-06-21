@@ -11,11 +11,13 @@ h2 {
     margin: 30px;
 }
 
-.carrousel, .aboutUs, .infoSection, .ourProducts {
-    border: 5px solid red;
-}
+/* THIS LINE GOES THERE TO KNOW THE BORDERS */
 
-.infoSection, .location {
+/* .carrousel, .aboutUs, .infoSection, .ourProducts, .location {
+    border: 5px solid red;
+} */
+
+.location, .infoSection {
     background-color: #d4d4d4;
 }
 
@@ -28,6 +30,7 @@ footer {
 .textDisplay {
     width: 500px;
 margin: 0 auto;
+padding: 30px;
 }
 .contactForm {
     width: 60vw;
@@ -36,7 +39,7 @@ margin: 0 auto;
 
 .titleCenter {
     text-align: center;
-}
+} 
 
 .centerButtons {
     width: 5vw;
@@ -64,4 +67,8 @@ margin: 0 auto;
 
 i.fas, i.far {
     font-size: 30px;
+}
+
+.ourProducts {
+    text-align: center;
 }
