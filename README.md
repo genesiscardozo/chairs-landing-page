@@ -8,6 +8,6 @@ This is a landing page for a furniture store.
 
 ### Sources:
 
-- Icons from [Font Awesome] (https://fontawesome.com/)
-- Images from [Unplash] (https://unsplash.com/)
-- Fonts from [Google Fonts] (https://fonts.google.com/)
+- Icons from [Font Awesome](https://fontawesome.com/)
+- Images from [Unplash](https://unsplash.com/)
+- Fonts from [Google Fonts](https://fonts.google.com/)
