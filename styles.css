@@ -11,6 +11,10 @@ h2 {
     margin: 30px;
 }
 
+h2:hover {
+    color: rgb(128, 125, 120);
+}
+
 /* THIS LINE GOES THERE TO KNOW THE BORDERS */
 
 /* .carrousel, .aboutUs, .infoSection, .ourProducts, .location {
@@ -29,8 +33,8 @@ footer {
 /* Paragraph Display  */
 .textDisplay {
     width: 500px;
-margin: 0 auto;
-padding: 30px;
+    margin: 0 auto;
+    padding: 30px;
 }
 .contactForm {
     width: 60vw;
@@ -48,8 +52,8 @@ padding: 30px;
 }
 
 .iframeStyle {
- text-align: center;
- margin: 50px;
+    text-align: center;
+    margin: 50px;
 }
 
 .nav-link {
@@ -67,8 +71,36 @@ padding: 30px;
 
 i.fas, i.far {
     font-size: 30px;
+    /* transition-property: font-size;
+    transition-duration: .5s;
+    transition-timing-function: ease-in; */
+}
+
+i.fas:hover, i.far:hover {
+    font-size: 34px; 
+    color: rgb(128, 128, 128);
 }
 
 .ourProducts {
     text-align: center;
+}
+
+/* Carousel Settings */
+.carousel .carousel-item {
+    max-height:550px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    max-height:550px;
+} 
+
+h5 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h5 a:hover {
+    color:rgb(27, 27, 27);
 }
