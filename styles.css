@@ -6,13 +6,25 @@ body {
 }
 
 h2 {
-    font-size: 24;
+    font-size: 30px;
     font-weight: bold;
     margin: 30px;
 }
 
 h2:hover {
     color: rgb(128, 125, 120);
+}
+
+@media screen and (min-width: 601px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 28px;
+    }
 }
 
 /* THIS LINE GOES THERE TO KNOW THE BORDERS */
@@ -36,6 +48,23 @@ footer {
     margin: 0 auto;
     padding: 30px;
 }
+
+@media screen and (min-width: 601px) {
+    .textDisplay {
+        width: 500px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .textDisplay {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
+
 .contactForm {
     width: 60vw;
     margin: 0 auto;
@@ -51,10 +80,37 @@ footer {
     padding: 20px;
 }
 
+/* Map Styles */
 .iframeStyle {
     text-align: center;
     margin: 50px;
 }
+
+.map {
+    width: 600px;
+    height: 450px; 
+    border: 0;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 601px) {
+    .map {
+        width: 600px;
+        height: 450px; 
+        border: 0;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .map {
+        width: 350px;
+        height: 400px; 
+        border: 0;
+        padding-bottom: 30px;
+    }
+}
+
 
 .nav-link {
     color: white;
@@ -74,6 +130,19 @@ i.fas, i.far {
     /* transition-property: font-size;
     transition-duration: .5s;
     transition-timing-function: ease-in; */
+}
+
+/* Icons Media Queries */
+@media screen and (min-width: 601px) {
+    i.fas, i.far {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    i.fas, i.far {
+        font-size: 20px;
+    }
 }
 
 i.fas:hover, i.far:hover {
@@ -104,3 +173,4 @@ h5 a {
 h5 a:hover {
     color:rgb(27, 27, 27);
 }
+
